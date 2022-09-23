@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InputComponent } from './views/input/input.component';
-import { ImageComponent } from './views/image/image.component';
+import { PokemonComponent } from './views/pokemon/pokemon.component';
 import { environment } from 'src/environments/environment';
 import { NgxsModule } from '@ngxs/store';
 import { PokemonState } from './store/pokemon.state';
@@ -13,7 +13,7 @@ import { PokemonState } from './store/pokemon.state';
   declarations: [
     AppComponent,
     InputComponent,
-    ImageComponent,
+    PokemonComponent,
   ],
   imports: [
     BrowserModule,
